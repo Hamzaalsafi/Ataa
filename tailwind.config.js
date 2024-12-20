@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        "noto-sans-arabic": ["Noto Sans Arabic", "sans-serif"],
+      },
     },
   },
   plugins: [],

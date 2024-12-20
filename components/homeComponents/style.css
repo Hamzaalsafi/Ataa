@@ -1,0 +1,12 @@
+.donationCountShadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+@font-face {
+  font-family: "Noto Sans Arabic";
+  src: url("/fonts/NotoSansArabic-Regular.woff2") format("woff2"),
+    url("/fonts/NotoSansArabic-Regular.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
