@@ -32,12 +32,12 @@ export default function CategoryButton({
             }}
             className={`${
               activeCategory === element
-                ? "bg-white  border-b-4  z-20 border-b-white border-b-opacity-100 "
+                ? "bg-white  border-b-4  z-40 border-b-white border-b-opacity-100 "
                 : "bg-zinc-200 hover:bg-zinc-400  border-b-2 border-b-black "
             } px-1 md:px-5 py-1 md:flex md:gap-1  md:py-2.5 border-l-2 border-r-2 border-t-2 border-l-black border-t-black border-r-black border-opacity-75`}
             initial={{ scale: 0.95, opacity: 0.8 }}
             animate={{
-              scale: activeCategory === element ? 1 : 1,
+              scale: activeCategory === element ? 1.05 : 1,
               opacity: activeCategory === element ? 1 : 0.8,
             }}
             whileTap={{ scale: 0.98 }}
