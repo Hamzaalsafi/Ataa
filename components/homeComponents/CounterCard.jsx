@@ -33,7 +33,7 @@ export default function CounterCard({ data, countAddBy }) {
         />
 
         <p className="text-center  select-none pointer-events-none text-md  font-bold">
-          <CountUp start={0} end={countAddBy} duration={1.5} />
+          <CountUp start={0} end={countAddBy} duration={1.9} />
         </p>
         <p className="select-none text-center  pointer-events-none text-md md:text-lg ">
           المساهمون
