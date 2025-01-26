@@ -9,7 +9,7 @@ export default function NavBar() {
           <Link href={"/subject"}>قائمة المواد</Link>
         </li>
         <li className="bg-[#6A64F1] text-white px-3 py-1 rounded-md font-bold">
-          <Link href={"/addSubject"}>إضافة محتوى</Link>
+          {/* <Link href={"/addSubject"}>إضافة محتوى</Link> */}
         </li>
       </ul>
     </div>
